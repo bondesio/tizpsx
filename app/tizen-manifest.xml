@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="6.0" package="org.pablo.tizpsx" version="0.3.0">
+    <profile name="tv"/>
+    <privileges>
+        <privilege>http://tizen.org/privilege/externalstorage</privilege>
+    </privileges>
+    <ui-application appid="org.pablo.tizpsx" exec="tizpsx" type="capp" multiple="false" nodisplay="false" taskmanage="true" launch_mode="single">
+        <label>TizPSX</label>
+        <icon>icon.png</icon>
+    </ui-application>
+</manifest>

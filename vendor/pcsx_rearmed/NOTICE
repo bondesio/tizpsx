@@ -1,0 +1,16 @@
+PCSX ReARMed libretro source notice
+
+The source in this directory is from libretro/pcsx_rearmed, fetched from
+https://github.com/libretro/pcsx_rearmed at commit
+c8816799b50388e61cfe237fe2cdbb7d8175f20a (tree
+bea7c3942c7e2039cc70d39b1f74b5484ef265cf). The upstream copyright and
+license terms are in AUTHORS and COPYING. The core is licensed under GPL-2.0.
+
+The upstream frontend/libpicofe dependency is from notaz/libpicofe at commit
+a2697389e76744cfa0c56c13a172845c45ede719 (tree
+9843389285213e1b6883b9a7237c79faf99ff3b4). Its licensing notice is in
+frontend/libpicofe/README; it is triple-licensed GPL-2.0-or-later,
+LGPL-2.1-or-later, and MAME, with some separately identified MIT filters.
+
+The app adapter is maintained separately in app/core/pcsx_rearmed_adapter.c.
+No BIOS, firmware, disc image, save data, or other game content is included.
